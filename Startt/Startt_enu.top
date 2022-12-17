@@ -1,0 +1,21 @@
+topic: ~Start()
+language: enu
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+
+# Catching inputs and triggering outputs
+#u:(e:onStart) $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello
+
+# Starting Conversation
+u:([hello hi "hi Pepper" "Good Morning" "Morning"]) ["hello awais" "hi awais" hey "good morning awais"]
+
+u:(["how are you"  "Is everything okay"]) ["Great, thanks, good to see you" "Very good, thanks, good to see you" "all good, thanks, good to see you again"]
+
+# Saying to Leave
+u:(["I should leave" "I am tired" "I think I am tired and I should leave"]) ["Yes, It was a busy perhaps full of enjoyment day let me take you to the door" "Let me take you to the door"]
+
+u:(["okay" ok fine "why not"])["But, before leeaving let me capture this moment with my high resolution camera"] 

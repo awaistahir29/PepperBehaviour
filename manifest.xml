@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package version="0.0.0" uuid="finalassignment1">
+ <names>
+  <name lang="en_US">Untitled</name>
+ </names>
+ <supportedLanguages>
+  <language>en_US</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <dialogContent topicName="Start" typeVersion="1.0">
+   <topic language="en_US" path="Start/Start_enu.top"/>
+  </dialogContent>
+  <dialogContent topicName="move" typeVersion="1.0">
+   <topic language="en_US" path="move/move_enu.top"/>
+  </dialogContent>
+  <dialogContent topicName="PoseAsking" typeVersion="1.0">
+   <topic language="en_US" path="PoseAsking/PoseAsking_enu.top"/>
+  </dialogContent>
+  <dialogContent topicName="Startt" typeVersion="1.0">
+   <topic language="en_US" path="Startt/Startt_enu.top"/>
+  </dialogContent>
+  <dialogContent topicName="Intro" typeVersion="1.0">
+   <topic language="en_US" path="Intro/Intro_enu.top"/>
+  </dialogContent>
+ </contents>
+</package>
